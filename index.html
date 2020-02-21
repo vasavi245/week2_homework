@@ -8,21 +8,25 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!--external css link-->
     <link rel="stylesheet" href="main.css"> 
+    <!--Font awesome Link-->
+    <script src="https://kit.fontawesome.com/45b8d3bce0.js" crossorigin="anonymous"></script>
+
     
 </head>
 <body>
     <!--Adding Margin and Border for sm to xl screens-->
-    <div style="border:1px solid lightblue;" class="m-sm-3 m-md-3 m-lg-3 m-xl-3">
-    <!--Nav Bar-->
+    <div style="border-left: 1px solid lightblue; border-right: 1px solid lightblue; border-bottom: 0;" class="m-sm-1 m-md-1 m-lg-1 m-xl-1">
+    
+      <!--Nav Bar-->
     <div id="header">
-       <nav class="navbar navbar-expand-sm navbar-dark bg-info">
+       <nav class="navbar navbar-expand-sm navbar-dark bg-secondary sticky-top">
           <div class="container">
-             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                <span class="navbar-toggler-icon"></span>
              </button>
              <a href="#About Me" class="navbar-brand"><h3>Vasavi</h3></a>
              <!-- lists of Links in nav bar-->
-             <div class="collapse navbar-collapse" id="navbar">
+             <div class="collapse navbar-collapse" id="navbarResponsive">
                  <ul class="navbar-nav ml-auto" >
                     <li class="nav-item">
                        <a href="index.html" class="nav-link">About Me</a>
@@ -38,7 +42,7 @@
               </div>
             </div>
         </nav>
-        </div>
+      </div>
         
     <!--About me-->
     <div id="About Me">
@@ -50,12 +54,12 @@
          </div>
           <div class="row" class="justify-content-center">
            <div class="col-sm-3"></div>
-            <div class="card bg-light mb-3" style="max-width: 30rem;">
+            <div class="card bg-info text-white mb-3" style="max-width: 30rem;">
             <div class="card-header"><h3><u>About Me</u></h3>
             <div class="card-body">
-                <img class="img-responsive" src="sindhu.jpg" height="400" width="400" class="rounded" alt="My image">
+                <img class="img-fluid" src="sindhu.jpg" height="400" width="400" class="rounded" alt="My image">
                 <br>
-                <p class="card-text">I am Vasavisindhu Saladi.<br>I am a Software Developer.<br>Some quick example text to build on the card title and make up the bulk of the card's content.<br>Some quick example text to build on the card title and make up the bulk of the card's content</p>            
+                <p class="card-text text-white">I am Vasavisindhu Saladi.<br>I am a Software Developer.<br>Some quick example text to build on the card title and make up the bulk of the card's content.<br>Some quick example text to build on the card title and make up the bulk of the card's content</p>            
             </div>
 
             </div>
@@ -63,12 +67,20 @@
           </div>
          </div> 
       </div>
-      <footer class="sticky-footer bg-dark">
-        <div class="container">
-          <span class="text-muted">Place sticky footer content here.</span>
+  </div>    
+      <!--Footer-->
+      <footer>
+        <div class="row text-center">
+          <div class="col-md-4 icons">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+          </div>
+            <div class="col-md-4">
+              <p>copyright</p>
+            </div>
         </div>
       </footer>
-      </div>
    
     
 </body>
