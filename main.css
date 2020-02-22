@@ -4,13 +4,14 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    width: 100%;
 
 }
 /* paragraph color */
 p{
     color: white;
 }
-/* mouse over color nav-links in nav-bar &/
+/* mouse over color nav-links in nav-bar */
 #header a:hover{
     color: pink;
 }
@@ -19,6 +20,9 @@ p{
   footer{
     background: #444;
     padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
   }
   /* Styling footer icons */
   .icons i {

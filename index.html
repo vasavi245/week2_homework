@@ -10,7 +10,10 @@
     <link rel="stylesheet" href="main.css"> 
     <!--Font awesome Link-->
     <script src="https://kit.fontawesome.com/45b8d3bce0.js" crossorigin="anonymous"></script>
-
+    <!--js links for toggler-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     
 </head>
 <body>
@@ -21,12 +24,12 @@
     <div id="header">
        <nav class="navbar navbar-expand-sm navbar-dark bg-secondary sticky-top">
           <div class="container">
-             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
                <span class="navbar-toggler-icon"></span>
              </button>
-             <a href="#About Me" class="navbar-brand"><h3>Vasavi</h3></a>
+             <a href="index.html" class="navbar-brand"><h3>Vasavi</h3></a>
              <!-- lists of Links in nav bar-->
-             <div class="collapse navbar-collapse" id="navbarResponsive">
+             <div class="collapse navbar-collapse" id="navbarNav">
                  <ul class="navbar-nav ml-auto" >
                     <li class="nav-item">
                        <a href="index.html" class="nav-link">About Me</a>
@@ -53,21 +56,19 @@
             </div>
          </div>
           <div class="row" class="justify-content-center">
-           <div class="col-sm-3"></div>
-            <div class="card bg-info text-white mb-3" style="max-width: 30rem;">
+           <div class="col-sm-12">
+            <div class="card bg-dark text-white mb-3" style="max-width: 25rem;">
             <div class="card-header"><h3><u>About Me</u></h3>
+            </div>
             <div class="card-body">
                 <img class="img-fluid" src="sindhu.jpg" height="400" width="400" class="rounded" alt="My image">
                 <br>
                 <p class="card-text text-white">I am Vasavisindhu Saladi.<br>I am a Software Developer.<br>Some quick example text to build on the card title and make up the bulk of the card's content.<br>Some quick example text to build on the card title and make up the bulk of the card's content</p>            
-            </div>
-
-            </div>
+             </div>
             </div>
           </div>
-         </div> 
-      </div>
-  </div>    
+        </div>
+    </div>
       <!--Footer-->
       <footer>
         <div class="row text-center">
